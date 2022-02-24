@@ -132,7 +132,7 @@ public class Booking {
 		}
 	
 		String s=driver.findElement(By.xpath("//a[contains(text(),'Nahar Capital & Fina')]/parent::td/following-sibling::td[3]")).getText();
-		System.out.println("Value    :  " +s);
+		System.out.println("Value   xxxxxxxxxxx :  " +s);
 	}
 	
 	@Test(enabled=flase)
