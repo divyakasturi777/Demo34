@@ -274,7 +274,7 @@ public class Booking {
 		driver.findElement(By.xpath("//*[@id=\"registerThemeDefault\"]/div/div[3]/div/div")).click();
 		driver.findElement(By.xpath("//div[@class='multiselect__select modal-ref-class']")).click();
 		List<WebElement>ls=driver.findElements(By.xpath("//*[@id=\"registerThemeDefault\"]/div/div[3]/div/div/div/form/div[3]/div[2]/div[2]/div[1]/div/div[3]/ul/li"));
-		System.out.println("Size "+ls.size());
+		System.out.println(" is ggggg "+ls.size());
 		
 		for(int i=0;i<ls.size();i++)
 		{
