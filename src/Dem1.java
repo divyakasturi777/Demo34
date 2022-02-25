@@ -8,7 +8,9 @@ public class Dem1 {
 WebDriver driver;
 String DepVal="March 2022";
 
-	
+	public Dem1() {
+		System.out.println("cnstructr");
+	}
 	@Test
 	public void test5() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Divya\\eclipse-workspace\\Classw\\chromedriver.exe");
